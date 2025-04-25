@@ -17,38 +17,38 @@
     bandit0@bandit:~$ 
 
 ### Log in with bandit1 account
-        ┌──(kali㉿Mono)-[~]
-        └─$ ssh bandit1@bandit.labs.overthewire.org -p 2220
-                                 _                     _ _ _   
-                                | |__   __ _ _ __   __| (_) |_ 
-                                | '_ \ / _` | '_ \ / _` | | __|
-                                | |_) | (_| | | | | (_| | | |_ 
-                                |_.__/ \__,_|_| |_|\__,_|_|\__|
-                                                               
-        
-                              This is an OverTheWire game server. 
-                    More information on http://www.overthewire.org/wargames
-        
-        bandit1@bandit.labs.overthewire.org's password: 
-        
-              ,----..            ,----,          .---.
-             /   /   \         ,/   .`|         /. ./|
-            /   .     :      ,`   .'  :     .--'.  ' ;
-           .   /   ;.  \   ;    ;     /    /__./ \ : |
-          .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
-          ;   |  ; \ ; | |    :     | /___/ \ |    ' '
-          |   :  | ; | ' ;    |.';  ; ;   \  \;      :
-          .   |  ' ' ' : `----'  |  |  \   ;  `      |
-          '   ;  \; /  |     '   :  ;   .   \    .\  ;
-           \   \  ',  /      |   |  '    \   \   ' \ |
-            ;   :    /       '   :  |     :   '  |--"
-             \   \ .'        ;   |.'       \   \ ;
-          www. `---` ver     '---' he       '---" ire.org
-        
-        
-        Welcome to OverTheWire!
-        
-        ...
-        
-        bandit1@bandit:~$
-
+    ┌──(kali㉿Mono)-[~]
+    └─$ ssh bandit1@bandit.labs.overthewire.org -p 2220
+                             _                     _ _ _   
+                            | |__   __ _ _ __   __| (_) |_ 
+                            | '_ \ / _` | '_ \ / _` | | __|
+                            | |_) | (_| | | | | (_| | | |_ 
+                            |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                           
+    
+                          This is an OverTheWire game server. 
+                More information on http://www.overthewire.org/wargames
+    
+    bandit1@bandit.labs.overthewire.org's password: 
+    
+          ,----..            ,----,          .---.
+         /   /   \         ,/   .`|         /. ./|
+        /   .     :      ,`   .'  :     .--'.  ' ;
+       .   /   ;.  \   ;    ;     /    /__./ \ : |
+      .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+      ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+      |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+      .   |  ' ' ' : `----'  |  |  \   ;  `      |
+      '   ;  \; /  |     '   :  ;   .   \    .\  ;
+       \   \  ',  /      |   |  '    \   \   ' \ |
+        ;   :    /       '   :  |     :   '  |--"
+         \   \ .'        ;   |.'       \   \ ;
+      www. `---` ver     '---' he       '---" ire.org
+    
+    
+    Welcome to OverTheWire!
+    
+    ...
+    
+    bandit1@bandit:~$
+    
