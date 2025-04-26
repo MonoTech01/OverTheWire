@@ -61,31 +61,6 @@ Look around and find out
     ,k=?
     tIsrQ
     ...
-    Tvw1
-    Ns9(
-    //'av
-    ========== the
-    2xG&
-    O;O1
-    ...
-    qC^4
-    y})
-    H7*E
-    ========== password{k
-    ]AOJ
-    ...
-    4u|@{F*
-    OS      4
-    ;`[;z
-    =========== is
-    {~j@e
-    *dx%A
-    ...
-    bD/@
-    2wNXK|
-    ========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-    v3A|
-    ...
     uG_V
 
     bandit9@bandit:~$ strings data.txt | grep "=*" -o
