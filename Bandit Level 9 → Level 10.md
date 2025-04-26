@@ -88,7 +88,7 @@ Look around and find out
     ...
     uG_V
 
-bandit9@bandit:~$ strings data.txt | grep "=*" -o
+    bandit9@bandit:~$ strings data.txt | grep "=*" -o
     =
     =
     ==========
