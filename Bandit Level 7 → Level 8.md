@@ -32,7 +32,7 @@ The password for the next level is stored in the file data.txt next to the word 
     
     
     Welcome to OverTheWire!
-### Find the password forr bandit 8
+### Find the password for bandit8
 
     bandit7@bandit:~$ ls
     data.txt
