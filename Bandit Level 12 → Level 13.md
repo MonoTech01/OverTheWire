@@ -79,6 +79,25 @@ Look around and find out
     data.txt
     bandit12@bandit:/tmp/monoworkshop$ 
 
+Convert the hex data back into raw binary
+    
+    bandit12@bandit:/tmp/monoworkshop$ xxd -r data.txt 
+    4▒ 4��hH��D0UP�k�.�"˟�����D�p�QG�l��J��΄�x Fc������޺�����;��▒�4�
+    ��px��[�h���oFw9 D���9A����\Ѽ-�1�l�N�(^�@Z@T!��I▒2_=pi@�������(,Q�I��/bݐ'�y��R�
+      ���t�����2Z�������<wm�i�<G�f�K���j    F��]    �pk��%��
+    
+    ��▒Zip�47��@��\5�<�ڟQ��զ��G�8�P�����B▒�eI@
+    �����P�YK?▒+�� �$��N��%Φ�g�Nm!A6*�)-f8<!��N��O,▒����6Ɉ�V8�w$S�
+    ��x��Q-Ibandit12@bandit:/tmp/monoworkshop$ 
+
+    bandit12@bandit:/tmp/monoworkshop$ xxd -r data.txt > binary
+    bandit12@bandit:/tmp/monoworkshop$ ls
+    binary  data.txt
+
+    bandit12@bandit:/tmp/monoworkshop$ file ./*
+    ./binary:   gzip compressed data, was "data2.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32       585
+    ./data.txt: ASCII text
+    bandit12@bandit:/tmp/monoworkshop$ 
 
 
 
