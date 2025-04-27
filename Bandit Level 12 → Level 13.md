@@ -67,6 +67,19 @@ Look around and find out
     00000260: 78f0 d951 192d 4902 0000                 x..Q.-I...
     bandit12@bandit:~$ 
 
+### Find the password for bandit13
+
+    bandit12@bandit:~$ mkdir /tmp/monoworkshop
+    bandit12@bandit:~$ cd /tmp/monoworkshop
+    bandit12@bandit:/tmp/monoworkshop$ cp ~/data.txt 
+    cp: missing destination file operand after '/home/bandit12/data.txt'
+    Try 'cp --help' for more information.
+    bandit12@bandit:/tmp/monoworkshop$ cp ~/data.txt .
+    bandit12@bandit:/tmp/monoworkshop$ ls
+    data.txt
+    bandit12@bandit:/tmp/monoworkshop$ 
+
+
 
 
 
