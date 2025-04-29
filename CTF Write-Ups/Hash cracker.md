@@ -1,5 +1,5 @@
 ## ne02 
-- Connect to the network service at 3-ne04.bootupctf.net on port 8228 and retrieve the flag.
+Connect to the network service at 3-ne04.bootupctf.net on port 8228 and retrieve the flag.
 
 ## Performance
 Use netcat to connect to the server [nc domainname port]
