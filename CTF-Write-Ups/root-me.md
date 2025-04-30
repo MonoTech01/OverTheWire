@@ -90,6 +90,7 @@ Reverse shell 🐚 Upload
         $
    
 Find the flag in user.txt
+
         $ find file ./* | grep "user.txt"
         ...
         ./var/www/user.txt
