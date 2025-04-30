@@ -100,6 +100,7 @@ The result of the cat command will show the flag!
 
 ### Escalate privileges and find a flag in root.txt
 
+(To be continued)
 
 
 
