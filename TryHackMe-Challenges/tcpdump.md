@@ -1,8 +1,12 @@
 ## Identify and count the number of ICMP packets in the traffic.pcap file
 
+    user@ip-10-10-232-32:~$ ls
+    traffic.pcap
+    
 Identify
   
     user@ip-10-10-232-32:~$ tcpdump icmp -r traffic.pcap -n
+    ...
 
 The result of the above comment will show a list of icmp communications
 
