@@ -84,7 +84,7 @@ Cyberchef - Convert THM{ to Hex to identify how many bytes it is in the flag
 
 THM{ is 4 bytes, so the first 4 bytes in the code represents for THM{.
 
-The first 4 bytes in the code
+The first 4 bytes in 201d082c004534293904312d3116040061263c13353b37641118193c3f2506213c6705062d0a250d is 
 
     201d082c
 
