@@ -1,4 +1,4 @@
-## Target's Info
+## Target Info
 - IP address: 10.10.148.76
 
 ## Mission
