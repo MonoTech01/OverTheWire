@@ -1,4 +1,4 @@
-## 🔍 TryHackMe Progress
+## 🔍 TryHackMe Progress (Updated: May 6th 2025)
 
 ### 2024
 - **Rank:** 108,686 _(Top 10%)_  
@@ -9,10 +9,10 @@
 ---
 
 ### 2025
-- **Rank:** 75,096 _(Top 5%)_  
-- **Rooms Completed:** 70  
+- **Rank:** 69117 _(Top 5%)_  
+- **Rooms Completed:** 72  
 - **Badges:** 11  
-- **Current Streak:** 43 days
+- **Current Streak:** 50 days
 
 ## 🎓 My Certifications
 
