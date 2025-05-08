@@ -97,7 +97,72 @@ Convert the hex data back into raw binary
     bandit12@bandit:/tmp/monoworkshop$ file ./*
     ./binary:   gzip compressed data, was "data2.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32       585
     ./data.txt: ASCII text
-    bandit12@bandit:/tmp/monoworkshop$ 
+
+    bandit12@bandit:/tmp/monoworkshop$ mv binary file.gz
+    bandit12@bandit:/tmp/monoworkshop$ gunzip file.gz 
+    bandit12@bandit:/tmp/monoworkshop$ ls
+    data.txt  file
+
+bandit12@bandit:/tmp/monoworkshop$ file file
+file: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/monoworkshop$ mv file file.bz
+bandit12@bandit:/tmp/monoworkshop$ bzip -d file.bz
+Command 'bzip' not found, but there are 21 similar ones.
+bandit12@bandit:/tmp/monoworkshop$ bzip2 -d file.bz
+bandit12@bandit:/tmp/monoworkshop$ ls
+data.txt  file
+
+bandit12@bandit:/tmp/monoworkshop$ file file
+file: gzip compressed data, was "data4.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32 20480
+bandit12@bandit:/tmp/monoworkshop$ mv file file.gz
+bandit12@bandit:/tmp/monoworkshop$ gunzip file.gz 
+bandit12@bandit:/tmp/monoworkshop$ ls
+data.txt  file
+
+bandit12@bandit:/tmp/monoworkshop$ file *
+data.txt:   ASCII text
+file:       POSIX tar archive (GNU)
+bandit12@bandit:/tmp/monoworkshop$ mv file file.tar
+bandit12@bandit:/tmp/monoworkshop$ tar -xf file.tar 
+bandit12@bandit:/tmp/monoworkshop$ ls
+data5.bin  data.txt  file.tar
+
+bandit12@bandit:/tmp/monoworkshop$ mv data5.bin data.tar
+bandit12@bandit:/tmp/monoworkshop$ tar -xf data.tar 
+bandit12@bandit:/tmp/monoworkshop$ ls
+data6.bin  data.tar  data.txt  file.tar
+
+bandit12@bandit:/tmp/monoworkshop$ mv data6.bin data.tar
+bandit12@bandit:/tmp/monoworkshop$ tar -xf data.tar 
+bandit12@bandit:/tmp/monoworkshop$ ls
+data8.bin  data.tar  data.txt  file.tar
+
+bandit12@bandit:/tmp/monoworkshop$ mv data8.bin data.tar
+bandit12@bandit:/tmp/monoworkshop$ ls
+data.tar  data.txt  file.tar
+bandit12@bandit:/tmp/monoworkshop$ tar -xf data.tar 
+bandit12@bandit:/tmp/monoworkshop$ ls
+data.tar  data.txt  file.tar
+bandit12@bandit:/tmp/monoworkshop$ file *
+data.tar:   gzip compressed data, was "data9.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32 49
+data.txt:   ASCII text
+file.tar:   POSIX tar archive (GNU)
+
+bandit12@bandit:/tmp/monoworkshop$ mv data.tar data.gz
+bandit12@bandit:/tmp/monoworkshop$ gzip -d data.gz
+bandit12@bandit:/tmp/monoworkshop$ ls
+data  data.txt  file.tar
+bandit12@bandit:/tmp/monoworkshop$ file *
+data:       ASCII text
+data.txt:   ASCII text
+file.tar:   POSIX tar archive (GNU)
+
+
+bandit12@bandit:/tmp/monoworkshop$ cat data
+The password is FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn                     => The result!!!
+bandit12@bandit:/tmp/monoworkshop$ 
+
+    
 
 
 
