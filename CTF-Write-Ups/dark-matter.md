@@ -56,7 +56,7 @@ The result of the decoder shows many possible decryption (d) keys. After putting
 
 The correct key unlocks the machine and allows users to access the school's files. 
 
-I went through each files and found the flag in "Student Grades Report" file.
+I went through each file and found the flag in "Student Grades Report" file.
 
 
 
