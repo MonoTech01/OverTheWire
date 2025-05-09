@@ -3,21 +3,27 @@
 - Connect to the VM and find RSA private key => Find the flag.
 - There is a ransomeware note on the screen:
 
-      Ransomware Note
-      
-      You have been pwned by the DarkMatter  Gang.
-      Your files have been encrypted!
-      
-      71:50:13
-      
-      Enter the decryption key:
-      [              ]
-      
-      Decrypt
-      
-      Pay 0.5 BTC to: 1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X5Y6Z7
-      Failure to comply will result in permanent data loss.
 
+> ### Ransomware Note
+> **You have been pwned by the DarkMatter Gang.**  
+> Your files have been encrypted!
+>
+> **71:50:13**
+>
+> **Enter the decryption key:**  
+> ```
+> [            ]
+> ```
+> [**Decrypt**]
+>
+> ---
+>
+> **Pay 0.5 BTC to:**  
+> ```
+> 1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T1U2V3W4X5Y6Z7
+> ```
+>
+> *Failure to comply will result in permanent data loss.*
 
 
 ## Performance
@@ -45,7 +51,7 @@ Go to this RSA decoder tool https://www.dcode.fr/rsa-cipher and fill in these fo
     
     Public key value = 340282366920938460843936948965011886881
 
-The result of the decoder show many possible decryption (d) keys. After putting each key in "Enter the decryption key" section, the following key is the correct one: 19644236187324098433228745541797845217
+The result of the decoder shows many possible decryption (d) keys. After putting each key in "Enter the decryption key" section, the following key is the correct one: 19644236187324098433228745541797845217
 
 
 The correct key unlocks the machine and allows users to access the school's files. 
