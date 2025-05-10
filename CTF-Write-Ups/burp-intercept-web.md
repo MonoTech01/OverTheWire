@@ -1,5 +1,5 @@
 ## Target Info
-![photo00](CTF-Write-Ups/screenshots/web01a.png)
+![photo00](./screenshots/web01a.png)
 
 ## Mission
 Find the flag!
@@ -12,7 +12,9 @@ Find the flag!
   
 - Modify the role: change "User" → "admin" in the request body
 - Forward the tampered request: click Apply changes and  Forward
-![photo01](CTF-Write-Ups/screenshots/web01.png)
+  
+![photo01](./screenshots/web01.png)
 
 - Read the response: the server now greets me as Admin and returns the flag
-![photo01](CTF-Write-Ups/screenshots/web01b.png)
+  
+![photo01](./screenshots/web01b.png)
