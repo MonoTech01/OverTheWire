@@ -48,8 +48,6 @@ The Python HTTP server command prints every incoming GET request (including its 
 
 Copy and paste the payload into the feedback textarea => Click Submit.
 
-![sticker shop screenshot](./screenshots/sticker-shop04.png)
-
 ### Find the flag
 
 After submitting the script, the listener will recieve the flag!
