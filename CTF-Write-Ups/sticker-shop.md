@@ -52,3 +52,5 @@ Copy and paste the payload into the feedback textarea => Click Submit.
 
 After submitting the script, the listener will recieve the flag!
 
+![sticker shop screenshot](./screenshots/sticker-shop05.png)
+
