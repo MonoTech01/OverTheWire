@@ -1,16 +1,22 @@
 ## Target Info
-http://10.10.197.209:8080
+
+![sticker shop screenshot](./screenshots/sticker-shop01.png)
+
 
 ## Mission
-Steal the contents of http://10.10.197.209:8080/flag.txt
+Steal the contents of `http://10.10.197.209:8080/flag.txt`
 
 ## Performance
 
-### Go to http://10.10.197.209:8080/flag.txt
+### Go to `http://10.10.197.209:8080/flag.txt`
 The result is 401 unauthorized. 
 
-### Browse the site homepage and discover a “Feedback” link
-The feedback page presents a simple textarea and “Submit” button, with no input sanitization.
+![sticker shop screenshot](./screenshots/sticker-shop02.png)
+
+### Browse the site homepage and discover a “Feedback” page
+The feedback page presents a simple text area and “Submit” button, with no input sanitization.
+
+![sticker shop screenshot](./screenshots/sticker-shop03.png)
 
 ### Craft the XXS payload
 The script will read the local /flag.txt file and send it to the attacker host aka my machine.
@@ -35,7 +41,6 @@ What is the code trying to do?
 
     root@ip-10-10-15-220:~# python3 -m http.server 7000
     Serving HTTP on 0.0.0.0 port 7000 (http://0.0.0.0:7000/) ...
-    10.10.197.209 - - [4/May/2025 21:31:24]
 
 The Python HTTP server command prints every incoming GET request (including its full URL and query string) to my terminal so I can see the exfiltrated flag.
 
@@ -43,6 +48,10 @@ The Python HTTP server command prints every incoming GET request (including its 
 
 Copy and paste the payload into the feedback textarea => Click Submit.
 
+![sticker shop screenshot](./screenshots/sticker-shop04.png)
+
 ### Find the flag
 
 After submitting the script, the listener will recieve the flag!
+
+![sticker shop screenshot](./screenshots/sticker-shop05.png)
