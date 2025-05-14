@@ -54,7 +54,7 @@ Note: Use the openssl help command to display the correct cipher format syntax.
     Using -iter or -pbkdf2 would be better.
     root@ip-10-10-255-38:~/Rooms/cryptographyintro/task02# ls
     quote01.txt      quote02       quote02.txt  quote03.txt.gpg
-    quote01.txt.gpg  quote022.txt  quote03.txt
+    quote01.txt.gpg  quote03.txt
     root@ip-10-10-255-38:~/Rooms/cryptographyintro/task02# cat quote02.txt
     The true science of martial arts means practicing them in such a way that they will be useful at any time, and to teach them in such a way that they will be useful in all things.
     Miyamoto Musashi
