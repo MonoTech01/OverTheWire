@@ -64,10 +64,14 @@ The third word in the decrypted file is "science".
 ### Task 3
 
     root@ip-10-10-255-38:~/Rooms/cryptographyintro/task02# gpg -o quote03.txt -d quote03.txt.gpg
-    gpg: CAMELLIA256 encrypted data
-    gpg: encrypted with 1 passphrase
-    gpg: decryption failed: Bad session key
-    root@ip-10-10-255-38:~/Rooms/cryptographyintro/task02# gpg -o quote03.txt -d quote03.txt.gpg
+    
+            x Enter passphrase                                     x            
+            x                                                      x            
+            x                                                      x            
+            x Passphrase: ________________________________________ x            
+            x                                                      x            
+            x       <OK>                              <Cancel>     x  
+    
     gpg: CAMELLIA256 encrypted data
     gpg: encrypted with 1 passphrase
     root@ip-10-10-255-38:~/Rooms/cryptographyintro/task02# ls
