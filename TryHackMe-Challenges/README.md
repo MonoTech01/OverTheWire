@@ -9,10 +9,10 @@
 ---
 
 ### 2025
-- **Rank:** 69117 _(Top 5%)_  
-- **Rooms Completed:** 72  
+- **Rank:** 68048 _(Top 5%)_  
+- **Rooms Completed:** 73  
 - **Badges:** 11  
-- **Current Streak:** 50 days
+- **Current Streak:** 61 days
 
 ## 🎓 My Certifications
 
